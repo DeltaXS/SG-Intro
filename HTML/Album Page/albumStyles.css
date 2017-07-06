@@ -15,9 +15,22 @@ h1, #Members {
     background-image: url("Images/NightAtTheOpera.jpg");
     margin: auto;
     height: 300px;
-    width: 300px
+    width: 300px;
 }
 
 li {
-    font-style: italic
+    font-style: italic;
+}
+
+a {
+    text-decoration: none;    
+}
+
+#bandName:hover {
+    text-decoration: underline;
+    background-color: red;
+}
+
+td {
+    font-style: italic;
 }
