@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <style>
+            a:before {
+                content:"";
+                display:inline-block;
+                width:32px;
+            }
+            div {
+                text-align: center
+            }
+        </style>
+        <title>Contact Us</title>
+        <h1 style="text-align: center">Swine and Dash's Eatery</h1>
+        <hr>
+        <a href="index.html">Home </a><a href="menu.html">Menu </a><a href="contactUs.html">Contact Us</a>
+        <hr>
+        <body>
+            <form>
+                <div>
+                    <span>Name: </span><input type="text" name="Name"/>
+                </div>
+                <div>
+                    <span>Email: </span><input type="text" name="Email"/>
+                </div>
+                <div>
+                    <span>Phone: </span><input type="text" name="Phone"/>
+                </div>
+                <div>
+                    <span>Reason for Inquiry: </span><select>
+                            <option>Catering</option>
+                            <option>Private Party</option>
+                            <option>Feedback</option>
+                            <option>Other</option>
+                        </select>
+                </div>
+                <div>
+                    <span>Additonal Information: </span><textarea></textarea>
+                </div>
+                <div>
+                    <span>Have you been to the restaurant? </span><input type="radio" name="attendance" value="No" checked/>No
+                                  <input type="radio" name="attendance" value="Yes"/>Yes
+                </div>
+                <div>
+                    <span>Best days to contact you: </span>
+                    <span style="margin: auto">
+                        <input type="checkbox" name="Monday"/>M
+                        <input type="checkbox" name="Tuesday"/>T
+                        <input type="checkbox" name="Wednesday"/>W
+                        <input type="checkbox" name="Thursday"/>Th
+                        <input type="checkbox" name="Friday"/>F
+                    </span><br/>
+                </div>
+                <div>
+                    <input type="submit" value="Send Request"/>
+                </div>
+                </form>
+        </body>
+        <hr>
+        <p style="text-align: center">Porkenheimer St, Houston, TX, 77777</p>
+        <p style="text-align: center">(713)867-5309</p>
+    </head>
+</html>
