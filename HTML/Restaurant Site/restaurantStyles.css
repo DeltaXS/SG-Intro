@@ -1,0 +1,9 @@
+a:before {
+                content:"";
+                display:inline-block;
+                width:32px;
+}
+
+p {
+    text-align: center
+}
