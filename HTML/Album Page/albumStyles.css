@@ -1,8 +1,23 @@
 
 div, h1, h2, h3 {
-    text-align: center
+    text-align: center;
 }
 
 table, th, td {
     border: 1px solid black;
+}
+
+h1, #Members {
+    font-family: fantasy;
+}
+
+#album {
+    background-image: url("Images/NightAtTheOpera.jpg");
+    margin: auto;
+    height: 300px;
+    width: 300px
+}
+
+li {
+    font-style: italic
 }
