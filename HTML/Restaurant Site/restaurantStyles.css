@@ -7,3 +7,11 @@ a:before {
 p {
     text-align: center
 }
+
+#menuName {
+    font-size: 20pt
+}
+
+h1 {
+    font-family: cursive
+}
