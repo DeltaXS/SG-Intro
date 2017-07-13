@@ -1,22 +1,38 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="C:\Users\Daniel McBride\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.css">
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <title>Home</title>
         <h1 style="text-align: center">Swine and Dash's Eatery</h1>
         <hr>
-        <a href="index.html">Home </a><a href="menu.html">Menu </a><a href="contactUs.html">Contact Us</a>
+        <ul class="nav nav-tabs">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+            <li><a href="menu.html">Menu </a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
         <hr>
+        <div class="jumbotron">
+            <h1>New Location Launching this August!!!</h1>
+        </div>
         <body>
-            <div style="background-color: pink">
-                <div style="text-align: center"><img src="Images/PigDash.jpg" style="width: 400px; height: 150px"/></div>
-                <div style="margin: auto; border: 1px solid black; width: 400px; height: 300px">
-                    <p style="font-size: 18pt">
-                        Welcome to Swine and Dash's Eatery, where the swine is the finest and fastest in town.
-                        Ever been craving BBQ but just don't want the hastle of waiting on it forever? Then we are
-                        the place for you! We've perfected our process to the point where we've even got a drive 
-                        through for the carnivore on the go. Dash on through and see how we're the best!
-                    </p>
+            <div class="container-fluid">
+                <div class="row" style="background-color: pink">
+                    <div class="col-md-4"></div>
+                    <div class="col-md-4">
+                        <figure>
+                            <img src="Images/PigDash.jpg" style="border: 1px solid; width: 400px; height: 150px"/>
+                            <figcaption style="border: 1px solid black; width: 400px; height: 300px">
+                                <p style="font-size: 16pt">
+                                    Welcome to Swine and Dash's Eatery, where the swine is the finest and fastest in town.
+                                    Ever been craving BBQ but just don't want the hastle of waiting on it forever? Then we are
+                                    the place for you! We've perfected our process to the point where we've even got a drive 
+                                    through for the carnivore on the go. Dash on through and see how we're the best!
+                                <p>
+                            </figcaption>
+                        </figure>
+                    </div>
+                    <div class="col-md-4"></div>
                 </div>
             </div>
         </body>

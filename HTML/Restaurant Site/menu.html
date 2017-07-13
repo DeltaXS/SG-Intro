@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <link rel="stylesheet" href="C:\Users\Daniel McBride\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.css">
         <link href="restaurantStyles.css" rel="stylesheet" type="text/css" />
         <style>            
             th, td {
@@ -16,97 +17,100 @@
         <title >Menu</title>
         <h1 style="text-align: center">Swine and Dash's Eatery</h1>
         <hr>
-        <a href="index.html">Home </a><a href="menu.html">Menu </a><a href="contactUs.html">Contact Us</a>
+        <ul class="nav nav-tabs">
+            <li><a href="index.html"><span class="glyphicon glyphicon-home"></span> Home </a></li>
+            <li><a href="menu.html">Menu </a></li>
+            <li><a href="contactUs.html">Contact Us</a></li>
+        </ul>
         <hr>
         <body style="background-color: burlywood">
-            <table>
-                <thead>
-                    <th id="menuName">BBQ Burger and Fries</th>
-                    <th id="menuName">Pulled Pork Sandwich and Fries</th>
-                    <th id="menuName">Brisket Sandwich and Fries</th>
-                </thead>
-                <tbody>
-                    <td>Classic Hamburger done BBQ</td>
-                    <td>Delicious swine cooked to perfection</td>
-                    <td>Perfect BBQ brisket melts in your mouth</td>
-                </tbody>
-                <tbody>
-                    <td>Your choice of cheese, pickle</td>
-                    <td>Piled high on a sesame seed bun</td>
-                    <td>On a sesame seed bun, with liberal</td>
-                </tbody>
-                <tbody>
-                    <td> onion, tomato, and lettuce and BBQ sauce.</td>
-                    <td>with pickles and BBQ sauce optional.</td>
-                    <td>amounts of BBQ sauce.</td>
-                </tbody>
-                <tbody>
-                    <td>Served with french fries.</td>
-                    <td>Served with french fries.</td>
-                    <td>Served with french fries.</td>
-                </tbody>
-                <tbody>
-                    <td>$7.95</td>
-                    <td>$8.95</td>
-                    <td>$8.95</td>
-                </tbody>
-            </table>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4" id="menuName">BBQ Burger and Fries</div>
+                    <div class="col-md-4" id="menuName">Pulled Pork Sandwich and Fries</div>
+                    <div class="col-md-4" id="menuName">Brisket Sandwich and Fries</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">Classic Hamburger done BBQ</div>
+                    <div class="col-md-4">Delicious swine cooked to perfection</div>
+                    <div class="col-md-4">Perfect BBQ brisket melts in your mouth</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">Your choice of cheese, pickle</div>
+                    <div class="col-md-4">Piled high on a sesame seed bun</div>
+                    <div class="col-md-4">On a sesame seed bun, with liberal</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4"> onion, tomato, and lettuce and BBQ sauce.</div>
+                    <div class="col-md-4">with pickles and BBQ sauce optional.</div>
+                    <div class="col-md-4">amounts of BBQ sauce.</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">Served with french fries.</div>
+                    <div class="col-md-4">Served with french fries.</div>
+                    <div class="col-md-4">Served with french fries.</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">$7.95</div>
+                    <div class="col-md-4">$8.95</div>
+                    <div class="col-md-4">$8.95</div>
+                </div>
+            </div>
             <br/><br/><br/>
-            <table>
-                <thead>
-                    <th id="menuName">Burnt Ends and Baked Potato</th>
-                    <th id="menuName">BBQ Baked Potato</th>
-                    <th id="menuName">Double Meat Plate</th>
-                </thead>
-                <tbody>
-                    <td>Seared pork tips swimming</td>
-                    <td>Take a baked potato, stuff in as much</td>
-                    <td>Brisket plus Pulled pork</td>
-                </tbody>
-                <tbody>
-                    <td>in our famous Swine BBQ sauce</td>
-                    <td>pulled port as you can, then</td>
-                    <td>what more needs to be said</td>
-                </tbody>
-                <tbody>
-                    <td>Complete with a baked potato.</td>
-                    <td>go at it with the BBQ sauce.</td>
-                    <td>served with BBQ sauce.</td>
-                </tbody>
-                <tbody>
-                    <td>to make a stout BBQ staple.</td>
-                    <td>A swine meal to die for.</td>
-                    <td>Sides available for a $2 upcharge</td>
-                </tbody>
-                <tbody>
-                    <td>$8.95</td>
-                    <td>$7.95</td>
-                    <td>$8.95</td>
-                </tbody>
-            </table>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4" id="menuName">Burnt Ends and Baked Potato</div>
+                    <div class="col-md-4" id="menuName">BBQ Baked Potato</div>
+                    <div class="col-md-4" id="menuName">Double Meat Plate</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">Seared pork tips swimming</div>
+                    <div class="col-md-4">Take a baked potato, stuff in as much</div>
+                    <div class="col-md-4">Brisket plus Pulled pork</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">in our famous Swine BBQ sauce</div>
+                    <div class="col-md-4">pulled port as you can, then</div>
+                    <div class="col-md-4">what more needs to be said</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">Complete with a baked potato.</div>
+                    <div class="col-md-4">go at it with the BBQ sauce.</div>
+                    <div class="col-md-4">served with BBQ sauce.</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">to make a stout BBQ staple.</div>
+                    <div class="col-md-4">A swine meal to die for.</div>
+                    <div class="col-md-4">Sides available for a $2 upcharge</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">$8.95</div>
+                    <div class="col-md-4">$7.95</div>
+                    <div class="col-md-4">$8.95</div>
+                </div>
+            </div>
             <br/><br/><br/>
-            <table>
-                <thead>
-                    <th style="font-size: 20pt; text-decoration: underline">Beverages</th>
-                    <th></th>
-                </thead>
-                <tbody>
-                    <td id="drink">Fountain Drinks (Coke)</td>
-                    <td>$1.50</td>
-                </tbody>
-                <tbody>
-                    <td id="drink">Homemade Lemonade</td>
-                    <td>$2.00</td>
-                </tbody>
-                <tbody>
-                    <td id="drink">Root Beer</td>
-                    <td>$2.00</td>
-                </tbody>
-                <tbody>
-                    <td id="drink">Tea (Sweet/Unsweet)</td>
-                    <td>$2.00</td>
-                </tbody>
-            </table>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-12" style="font-size: 20pt; text-decoration: underline">Beverages</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="drink">Fountain Drinks (Coke)</div>
+                    <div class="col-md-6">$1.50</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="drink">Homemade Lemonade</div>
+                    <div class="col-md-6">$2.00</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="drink">Root Beer</div>
+                    <div class="col-md-6">$2.00</div>
+                </div>
+                <div class="row">
+                    <div class="col-md-6" id="drink">Tea (Sweet/Unsweet)</div>
+                    <div class="col-md-6">$2.00</div>
+                </div>
+            </div>
         </body>
         <hr>
         <footer>
@@ -114,4 +118,18 @@
             <p>(713)867-5309</p>
         </footer>
     </head>
+<!--
+    <head>
+        <link rel="stylesheet" href="C:\Users\Daniel McBride\Bootstrap\bootstrap-3.3.7-dist\css\bootstrap.css">
+        <body>
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-4">1</div>
+                    <div class="col-md-4">2</div>
+                    <div class="col-md-4">3</div>
+                </div>
+            </div>
+        </body>
+    </head>
+-->
 </html>
