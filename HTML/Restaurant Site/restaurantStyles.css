@@ -31,3 +31,8 @@ a:hover {
 a:active {
     text-decoration: none
 }
+
+#carousel {
+    text-align: center;
+    font-size: 20pt
+}
